@@ -6,12 +6,6 @@ from javax.swing import JButton
 from java.awt import Component
 from javax.swing import SwingWorker
 import java
-from burp import IBurpExtender
-from burp import IMessageEditorTabFactory
-from burp import IMessageEditorTab
-from javax.swing import JPanel, BoxLayout
-from javax.swing import JButton
-from java.awt import Component
 
 class BurpExtender(IBurpExtender, IMessageEditorTabFactory):
     def registerExtenderCallbacks(self, callbacks):
